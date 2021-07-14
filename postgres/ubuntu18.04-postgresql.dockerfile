@@ -5,9 +5,6 @@ RUN apt-get update
 
 RUN apt-get -y install postgresql-10
 
-RUN mkdir /keys
-RUN chown -R postgres /keys
-
 # Run the rest of the commands as the ``postgres`` user created by the ``postgres-10`` package when it was ``apt-get installed``
 USER postgres
 
