@@ -106,12 +106,12 @@ openssl genrsa -3 -out enclave-key.pem 3072
 
 3. Build the base docker image.
 ```sh
-docker build -f postgres/ubuntu18.04-postgresql.dockerfile -t postgres-graphene postgres/
+docker build -f dockers/postgres/ubuntu18.04-postgresql.dockerfile -t postgres-graphene dockers/postgres
 ```
 
 4. Graphenize the base docker image.
 ```sh
-./gsc build --insecure-args postgres-graphene postgres/ubuntu18.04-postgresql.manifest
+./gsc build --insecure-args postgres-graphene dockers/postgres/ubuntu18.04-postgresql.manifest
 ```
 
 
@@ -124,7 +124,7 @@ docker build -f postgres/ubuntu18.04-postgresql.dockerfile -t postgres-graphene 
 
 ## Usage
 
-Run any PostgreSQL command inside the container. Make sure using the `--user=postgres` flag, because PostgreSQL does not allow interaction as `root`.
+Run any PostgreSQL command inside the container. Make sure using the `--user=postgres` flag, because PostgreSQL does not allow interaction as `root`. Do not forget to adjust the `--device` flag to your enclave location.
 
 ```sh
 docker run --user=postgres --device=/dev/sgx_enclave -v /var/run/aesmd/aesm.socket:/var/run/aesmd/aesm.socket gsc-postgres-graphene -c "/usr/lib/postgresql/10/bin/psql --version"
