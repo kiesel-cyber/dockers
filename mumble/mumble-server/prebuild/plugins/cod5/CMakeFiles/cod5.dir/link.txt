@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -O3 -DNDEBUG -Wl,-z,relro -Wl,-z,now -shared -Wl,-soname,libcod5.so -o ../libcod5.so CMakeFiles/cod5.dir/cod5.cpp.o 

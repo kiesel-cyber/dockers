@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -O3 -DNDEBUG -Wl,-z,relro -Wl,-z,now -shared -Wl,-soname,libaoc.so -o ../libaoc.so CMakeFiles/aoc.dir/aoc.cpp.o 

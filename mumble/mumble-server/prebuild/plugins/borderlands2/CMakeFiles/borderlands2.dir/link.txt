@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -O3 -DNDEBUG -Wl,-z,relro -Wl,-z,now -shared -Wl,-soname,libborderlands2.so -o ../libborderlands2.so CMakeFiles/borderlands2.dir/borderlands2.cpp.o 

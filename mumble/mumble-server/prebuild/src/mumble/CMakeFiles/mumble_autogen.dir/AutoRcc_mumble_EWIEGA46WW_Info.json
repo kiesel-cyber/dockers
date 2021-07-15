@@ -1,0 +1,38 @@
+{
+	"BUILD_DIR" : "/home/sgx/graphene/Tools/gsc/test/mumble/build/src/mumble/mumble_autogen",
+	"CMAKE_BINARY_DIR" : "/home/sgx/graphene/Tools/gsc/test/mumble/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/sgx/graphene/Tools/gsc/test/mumble/build/src/mumble",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/sgx/graphene/Tools/gsc/test/mumble/src/mumble",
+	"CMAKE_SOURCE_DIR" : "/home/sgx/graphene/Tools/gsc/test/mumble",
+	"INCLUDE_DIR" : "/home/sgx/graphene/Tools/gsc/test/mumble/build/src/mumble/mumble_autogen/include",
+	"INPUTS" : 
+	[
+		"/home/sgx/graphene/Tools/gsc/test/mumble/samples/on.ogg",
+		"/home/sgx/graphene/Tools/gsc/test/mumble/samples/Critical.ogg",
+		"/home/sgx/graphene/Tools/gsc/test/mumble/samples/TextMessage.ogg",
+		"/home/sgx/graphene/Tools/gsc/test/mumble/samples/UserLeftChannel.ogg",
+		"/home/sgx/graphene/Tools/gsc/test/mumble/samples/wb_male.oga",
+		"/home/sgx/graphene/Tools/gsc/test/mumble/samples/off.ogg",
+		"/home/sgx/graphene/Tools/gsc/test/mumble/samples/ServerConnected.ogg",
+		"/home/sgx/graphene/Tools/gsc/test/mumble/icons/rec.svg",
+		"/home/sgx/graphene/Tools/gsc/test/mumble/samples/ServerDisconnected.ogg",
+		"/home/sgx/graphene/Tools/gsc/test/mumble/icons/mumble.svg",
+		"/home/sgx/graphene/Tools/gsc/test/mumble/samples/UserJoinedChannel.ogg",
+		"/home/sgx/graphene/Tools/gsc/test/mumble/icons/mumble.icns",
+		"/home/sgx/graphene/Tools/gsc/test/mumble/samples/UserKickedYouOrByYou.ogg",
+		"/home/sgx/graphene/Tools/gsc/test/mumble/samples/UserMutedYouOrByYou.ogg",
+		"/home/sgx/graphene/Tools/gsc/test/mumble/samples/SelfMutedDeafened.ogg",
+		"/home/sgx/graphene/Tools/gsc/test/mumble/samples/PermissionDenied.ogg",
+		"/home/sgx/graphene/Tools/gsc/test/mumble/samples/RecordingStateChanged.ogg"
+	],
+	"LOCK_FILE" : "/home/sgx/graphene/Tools/gsc/test/mumble/build/src/mumble/CMakeFiles/mumble_autogen.dir/AutoRcc_mumble_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "mumble" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_mumble.cpp",
+	"RCC_EXECUTABLE" : "/usr/lib/qt5/bin/rcc",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "/home/sgx/graphene/Tools/gsc/test/mumble/build/src/mumble/CMakeFiles/mumble_autogen.dir/AutoRcc_mumble_EWIEGA46WW_Used.txt",
+	"SOURCE" : "/home/sgx/graphene/Tools/gsc/test/mumble/src/mumble/mumble.qrc",
+	"VERBOSITY" : 0
+}

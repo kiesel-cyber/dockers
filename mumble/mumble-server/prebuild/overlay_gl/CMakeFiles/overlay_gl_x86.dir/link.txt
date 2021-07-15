@@ -1,0 +1,1 @@
+/usr/bin/cc -fPIC -O3 -DNDEBUG -m32 -Wl,-z,lazy -Wl,-z,relro -Wl,-z,now -shared -Wl,-soname,libmumbleoverlay.x86.so.1.5.0.0 -o ../libmumbleoverlay.x86.so.1.5.0.0 CMakeFiles/overlay_gl_x86.dir/overlay.c.o  -ldl -lrt 

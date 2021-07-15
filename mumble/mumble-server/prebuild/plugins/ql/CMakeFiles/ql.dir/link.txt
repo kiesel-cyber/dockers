@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -O3 -DNDEBUG -Wl,-z,relro -Wl,-z,now -shared -Wl,-soname,libql.so -o ../libql.so CMakeFiles/ql.dir/ql.cpp.o 

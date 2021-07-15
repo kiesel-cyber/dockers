@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -O3 -DNDEBUG -Wl,-z,relro -Wl,-z,now -shared -Wl,-soname,liblotro.so -o ../liblotro.so CMakeFiles/lotro.dir/lotro.cpp.o 

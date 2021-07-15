@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -O3 -DNDEBUG -Wl,-z,relro -Wl,-z,now -shared -Wl,-soname,libamongus.so -o ../libamongus.so CMakeFiles/amongus.dir/amongus.cpp.o CMakeFiles/amongus.dir/Game.cpp.o CMakeFiles/amongus.dir/__/Module.cpp.o CMakeFiles/amongus.dir/__/Process.cpp.o CMakeFiles/amongus.dir/__/ProcessWindows.cpp.o CMakeFiles/amongus.dir/__/HostLinux.cpp.o 

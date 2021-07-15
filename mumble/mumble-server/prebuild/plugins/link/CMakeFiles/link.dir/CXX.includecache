@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../plugins/mumble_legacy_plugin.h
+stdint.h
+-
+map
+-
+string
+-
+
+/home/sgx/graphene/Tools/gsc/test/mumble/plugins/link/link-posix.cpp
+mumble_legacy_plugin.h
+/home/sgx/graphene/Tools/gsc/test/mumble/plugins/link/mumble_legacy_plugin.h
+stdint.h
+-
+stdio.h
+-
+wchar.h
+-
+fcntl.h
+-
+string.h
+-
+sys/mman.h
+-
+sys/stat.h
+-
+sys/time.h
+-
+sys/types.h
+-
+time.h
+-
+unistd.h
+-
+

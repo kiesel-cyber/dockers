@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -O3 -DNDEBUG -Wl,-z,relro -Wl,-z,now -shared -Wl,-soname,libut2004.so -o ../libut2004.so CMakeFiles/ut2004.dir/ut2004.cpp.o 

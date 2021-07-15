@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -O3 -DNDEBUG -Wl,-z,relro -Wl,-z,now -shared -Wl,-soname,libbf2.so -o ../libbf2.so CMakeFiles/bf2.dir/bf2.cpp.o 

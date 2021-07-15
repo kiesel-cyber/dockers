@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -O3 -DNDEBUG -Wl,-z,relro -Wl,-z,now -shared -Wl,-soname,libbf1942.so -o ../libbf1942.so CMakeFiles/bf1942.dir/bf1942.cpp.o 

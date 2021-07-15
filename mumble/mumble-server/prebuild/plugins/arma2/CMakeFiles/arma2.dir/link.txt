@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -O3 -DNDEBUG -Wl,-z,relro -Wl,-z,now -shared -Wl,-soname,libarma2.so -o ../libarma2.so CMakeFiles/arma2.dir/arma2.cpp.o 

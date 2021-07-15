@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -O3 -DNDEBUG -Wl,-z,relro -Wl,-z,now -shared -Wl,-soname,libdys.so -o ../libdys.so CMakeFiles/dys.dir/dys.cpp.o 
