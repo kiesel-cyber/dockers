@@ -1,0 +1,43 @@
+version: '2'
+
+#static network from
+#https://stackoverflow.com/questions/39493490/provide-static-ip-to-docker-containers-via-docker-compose
+
+services: 
+    mumble-database:
+        image: mysql
+        container_name: mumble-database
+        command: --default-authentication-plugin=mysql_native_password
+        #restart: always
+        environment:
+            MYSQL_ROOT_PASSWORD: root
+        ports: 
+            - 3306:3306
+        networks:
+            vpcbr:
+                ipv4_address: 10.5.0.5
+        volumes:
+            - "./mysql/init.sql:/docker-entrypoint-initdb.d/init.sql"
+    mumble-server:
+        image: "gsc-${ID}"
+        container_name: mumble-server
+        #restart: always
+        volumes:
+            - /var/run/aesmd/aesm.socket:/var/run/aesmd/aesm.socket
+        ports:
+            - 64738:64738
+        networks:
+            vpcbr:
+                ipv4_address: 10.5.0.6
+        depends_on: 
+            - mumble-database
+        devices:
+            - "${SGX_ENCLAVE}:/dev/sgx_enclave"
+            - "${SGX_ISGX}:/dev/isgx"
+networks:
+    vpcbr:
+        driver: bridge
+        ipam:
+            config:
+                - subnet: 10.5.0.0/16
+                  gateway: 10.5.0.1

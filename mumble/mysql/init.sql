@@ -1,0 +1,4 @@
+CREATE DATABASE IF NOT EXISTS murmur;
+CREATE USER 'graphene'@'%' IDENTIFIED BY 'graphene';
+GRANT ALL ON *.* TO 'graphene'@'%';
+FLUSH PRIVILEGES;
