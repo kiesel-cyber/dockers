@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -O3 -DNDEBUG -Wl,-z,relro -Wl,-z,now -shared -Wl,-soname,libetqw.so -o ../libetqw.so CMakeFiles/etqw.dir/etqw.cpp.o 

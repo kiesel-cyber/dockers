@@ -1,0 +1,43 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/shared_autogen.dir/AutogenUsed.txt"
+  "CMakeFiles/shared_autogen.dir/ParseCache.txt"
+  "shared_autogen"
+  "CMakeFiles/shared.dir/Ban.cpp.o"
+  "CMakeFiles/shared.dir/EnvUtils.cpp.o"
+  "CMakeFiles/shared.dir/FFDHE.cpp.o"
+  "CMakeFiles/shared.dir/HTMLFilter.cpp.o"
+  "CMakeFiles/shared.dir/HostAddress.cpp.o"
+  "CMakeFiles/shared.dir/License.cpp.o"
+  "CMakeFiles/shared.dir/LogEmitter.cpp.o"
+  "CMakeFiles/shared.dir/Mumble.pb.cc.o"
+  "CMakeFiles/shared.dir/OSInfo.cpp.o"
+  "CMakeFiles/shared.dir/PasswordGenerator.cpp.o"
+  "CMakeFiles/shared.dir/PlatformCheck.cpp.o"
+  "CMakeFiles/shared.dir/ProcessResolver.cpp.o"
+  "CMakeFiles/shared.dir/QtUtils.cpp.o"
+  "CMakeFiles/shared.dir/SSL.cpp.o"
+  "CMakeFiles/shared.dir/SSLCipherInfo.cpp.o"
+  "CMakeFiles/shared.dir/SSLLocks.cpp.o"
+  "CMakeFiles/shared.dir/SelfSignedCertificate.cpp.o"
+  "CMakeFiles/shared.dir/ServerAddress.cpp.o"
+  "CMakeFiles/shared.dir/ServerResolver.cpp.o"
+  "CMakeFiles/shared.dir/ServerResolverRecord.cpp.o"
+  "CMakeFiles/shared.dir/Timer.cpp.o"
+  "CMakeFiles/shared.dir/UnresolvedServerAddress.cpp.o"
+  "CMakeFiles/shared.dir/User.cpp.o"
+  "CMakeFiles/shared.dir/Version.cpp.o"
+  "CMakeFiles/shared.dir/__/3rdparty/arc4random/arc4random_uniform.cpp.o"
+  "CMakeFiles/shared.dir/crypto/CryptStateOCB2.cpp.o"
+  "CMakeFiles/shared.dir/crypto/CryptographicHash.cpp.o"
+  "CMakeFiles/shared.dir/crypto/CryptographicRandom.cpp.o"
+  "CMakeFiles/shared.dir/shared_autogen/mocs_compilation.cpp.o"
+  "Mumble.pb.cc"
+  "Mumble.pb.h"
+  "libshared.a"
+  "libshared.pdb"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/shared.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

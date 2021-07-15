@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -O3 -DNDEBUG -Wl,-z,relro -Wl,-z,now -shared -Wl,-soname,libffxiv.so -o ../libffxiv.so CMakeFiles/ffxiv.dir/ffxiv.cpp.o 

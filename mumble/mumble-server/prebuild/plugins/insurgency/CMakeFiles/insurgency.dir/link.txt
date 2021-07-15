@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -O3 -DNDEBUG -Wl,-z,relro -Wl,-z,now -shared -Wl,-soname,libinsurgency.so -o ../libinsurgency.so CMakeFiles/insurgency.dir/insurgency.cpp.o 

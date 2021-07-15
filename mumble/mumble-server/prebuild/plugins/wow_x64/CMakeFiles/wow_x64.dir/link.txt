@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -O3 -DNDEBUG -Wl,-z,relro -Wl,-z,now -shared -Wl,-soname,libwow_x64.so -o ../libwow_x64.so CMakeFiles/wow_x64.dir/wow_x64.cpp.o 

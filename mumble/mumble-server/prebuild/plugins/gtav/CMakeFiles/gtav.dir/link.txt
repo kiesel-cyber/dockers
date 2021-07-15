@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -O3 -DNDEBUG -Wl,-z,relro -Wl,-z,now -shared -Wl,-soname,libgtav.so -o ../libgtav.so CMakeFiles/gtav.dir/gtav.cpp.o CMakeFiles/gtav.dir/Game.cpp.o CMakeFiles/gtav.dir/__/Module.cpp.o CMakeFiles/gtav.dir/__/Process.cpp.o CMakeFiles/gtav.dir/__/ProcessWindows.cpp.o CMakeFiles/gtav.dir/__/HostLinux.cpp.o 

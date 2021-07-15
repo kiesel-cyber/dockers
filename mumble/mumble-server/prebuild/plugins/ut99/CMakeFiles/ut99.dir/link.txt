@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -O3 -DNDEBUG -Wl,-z,relro -Wl,-z,now -shared -Wl,-soname,libut99.so -o ../libut99.so CMakeFiles/ut99.dir/ut99.cpp.o 

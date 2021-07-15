@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -O3 -DNDEBUG -Wl,-z,relro -Wl,-z,now -shared -Wl,-soname,libblacklight.so -o ../libblacklight.so CMakeFiles/blacklight.dir/blacklight.cpp.o 

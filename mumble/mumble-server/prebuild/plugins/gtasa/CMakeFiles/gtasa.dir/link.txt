@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -O3 -DNDEBUG -Wl,-z,relro -Wl,-z,now -shared -Wl,-soname,libgtasa.so -o ../libgtasa.so CMakeFiles/gtasa.dir/gtasa.cpp.o 

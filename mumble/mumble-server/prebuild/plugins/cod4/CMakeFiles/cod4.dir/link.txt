@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -O3 -DNDEBUG -Wl,-z,relro -Wl,-z,now -shared -Wl,-soname,libcod4.so -o ../libcod4.so CMakeFiles/cod4.dir/cod4.cpp.o 

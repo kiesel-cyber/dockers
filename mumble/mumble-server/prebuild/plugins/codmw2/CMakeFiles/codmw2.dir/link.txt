@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -O3 -DNDEBUG -Wl,-z,relro -Wl,-z,now -shared -Wl,-soname,libcodmw2.so -o ../libcodmw2.so CMakeFiles/codmw2.dir/codmw2.cpp.o 

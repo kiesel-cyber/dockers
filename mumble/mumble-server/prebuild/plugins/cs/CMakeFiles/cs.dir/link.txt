@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -O3 -DNDEBUG -Wl,-z,relro -Wl,-z,now -shared -Wl,-soname,libcs.so -o ../libcs.so CMakeFiles/cs.dir/cs.cpp.o 

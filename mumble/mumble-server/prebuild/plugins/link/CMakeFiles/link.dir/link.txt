@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -O3 -DNDEBUG -Wl,-z,relro -Wl,-z,now -shared -Wl,-soname,liblink.so -o ../liblink.so CMakeFiles/link.dir/link-posix.cpp.o  /usr/lib/x86_64-linux-gnu/librt.so 

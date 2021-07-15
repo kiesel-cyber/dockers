@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -O3 -DNDEBUG -Wl,-z,relro -Wl,-z,now -shared -Wl,-soname,libsr.so -o ../libsr.so CMakeFiles/sr.dir/sr.cpp.o 

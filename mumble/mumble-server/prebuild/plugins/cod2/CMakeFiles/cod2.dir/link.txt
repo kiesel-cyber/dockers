@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -O3 -DNDEBUG -Wl,-z,relro -Wl,-z,now -shared -Wl,-soname,libcod2.so -o ../libcod2.so CMakeFiles/cod2.dir/cod2.cpp.o CMakeFiles/cod2.dir/__/Module.cpp.o CMakeFiles/cod2.dir/__/Process.cpp.o CMakeFiles/cod2.dir/__/ProcessWindows.cpp.o CMakeFiles/cod2.dir/__/HostLinux.cpp.o 

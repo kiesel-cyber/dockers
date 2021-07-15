@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -O3 -DNDEBUG -Wl,-z,relro -Wl,-z,now -shared -Wl,-soname,libbf4_x86.so -o ../libbf4_x86.so CMakeFiles/bf4_x86.dir/bf4_x86.cpp.o 
