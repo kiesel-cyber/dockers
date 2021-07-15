@@ -1,0 +1,2 @@
+ "ConnectionStrings": {
+    "DefaultConnection": "Server=172.17.0.2;Database=VehicleKey;User Id=sa;Password=p@ssW0rd;"}
