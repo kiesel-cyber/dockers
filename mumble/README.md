@@ -8,7 +8,8 @@
 - SGX is installed 
   - [SGX Installation](https://github.com/enclaive/sgx_wiki)
 - Pull the [Graphene repository](https://github.com/oscarlab/graphene) and follow the [installation instructions](https://graphene.readthedocs.io/en/latest/manpages/gsc.html)
-- Install the mumble client `sudo apt install mumble`
+- Install docker-compose e.g. `sudo apt install docker-compose`
+- Install the mumble client e.g. `sudo apt install mumble`
 - If you want to test mumble outside of you localhost, you have to forward the mumble port 64738 
 
 ## Getting Started
