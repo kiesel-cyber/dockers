@@ -111,4 +111,4 @@ cd /graphene/Examples/ && python3 pytorchexample.py
 ```
 Now close the interactive terminal. The `result.txt` can now be found at `/opt/graphene/out/`
 
-Remeber before you run the gsc again delete the `result.txt`
+Remember before you run the gsc again delete the `result.txt`
